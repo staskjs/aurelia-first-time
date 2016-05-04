@@ -1,0 +1,14 @@
+<template>
+<require from="./my-button"></require>
+<div>
+  <div>
+    <input type="text" value.bind="login" />
+  </div>
+  <div>
+    <input type="text" value.bind="password" />
+  </div>
+  <div>
+    <my-button click.trigger="submit()">Submit!</my-button>
+  </div>
+</div>
+</template>

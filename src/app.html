@@ -1,0 +1,11 @@
+<template>
+  <require from="./my-button"></require>
+  <require from="./login-form"></require>
+  <h1>${message}</h1>
+
+  <login-form login.trigger="onLogin($event)"></login-form>
+  <br><br>
+  <button>Simple button</button>
+  <my-button>Basic styles</my-button>
+  <my-button class="override-my-button">Overriden styles</my-button>
+</template>
